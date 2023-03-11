@@ -1,0 +1,165 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    width: 1920px;
+    height: 5504px;
+    overflow-y: overlay;
+    background-image: url(assets/images/body-image.png);
+}
+
+/*font-area-start*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap');
+/*font-area-end*/
+/*icon-area-start*/
+
+/*header-area start*/
+.em40_header_area_main {
+    background: #ffeaea;
+}
+
+.dreamhub-header-area {
+    padding: 23px 0 23px 0;
+}
+
+/*header logo start*/
+.header-logo {
+    width: 100%;
+    padding-top: 8px;
+}
+
+.header-logo a {
+
+}
+
+.header-logo a img {
+    
+}
+/*header logo end*/
+
+/*header menu start*/
+.header-menu {
+    text-align: right;
+}
+
+.header-menu ul {
+    display: inline-block;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding-top: 16px;
+}
+
+.header-menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 27px;
+}
+.header-menu ul li a {
+    text-decoration: none;
+    color: #010e22;
+    transition: 0.5s;
+}
+
+.header-menu ul li a:hover {
+    color: #2771FE;
+}
+
+.header-menu ul li a span{
+
+}
+
+
+.header-menu ul li a i:hover {
+    color: #2771FE;
+    transition: 0.3s;
+}
+
+.header-menu ul li a svg.svg-inline--fa.fa-angle-down.fa-w-10 {
+    position: relative;
+    top: 1px;
+    left: 5px;
+}
+
+
+/*header menu end*/
+
+/*Login-Sign up button start*/
+.header-btn {
+    text-align: right;
+}
+
+.header-btn ul{
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.header-btn ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.header-btn ul li a {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.header-btn ul li.login {
+    padding-right: 23px;
+}
+
+.header-btn ul li.login a {
+    
+}
+
+.header-btn ul li.login a {
+    text-decoration: none;
+}
+
+.header-btn ul li.login a svg.svg-inline--fa.fa-angle-down.fa-w-10 {
+    position: relative;
+    right: 10px;
+    top: 2px;
+    font-size: 20px;
+}
+
+.header-btn ul li.login a span {
+    color: #010e22;
+}
+
+.sign-up {
+    border-radius: 5px;
+}
+
+
+.sign-up a {
+    padding: 15px 32px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #2871FE;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.sign-up a:hover {
+    background: #00E1AF;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #0000002a;
+    
+}
+
+/*Login-Sign up button end*/
+/*header-area end*/
+
+/*<====================================================>*/
