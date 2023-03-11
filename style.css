@@ -31,7 +31,6 @@ body {
 /*header logo start*/
 .header-logo {
     width: 100%;
-    padding-top: 8px;
 }
 
 .header-logo a {
@@ -53,7 +52,6 @@ body {
     font-family: 'Cabin', sans-serif;
     font-weight: 500;
     margin-bottom: 0;
-    padding-top: 16px;
 }
 
 .header-menu ul li {
